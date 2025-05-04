@@ -1,5 +1,6 @@
 package dio.web.api.repository;
 
+
 import dio.web.api.model.Utilizador;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +11,7 @@ import java.util.List;
 public class UserRepository {
 
     public void save(Utilizador utilizador) {
+
         if(utilizador.getId() == null){
             System.out.println("SAVE - Recebendo o utilizador na camada de repositório");
         }else{

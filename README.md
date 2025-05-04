@@ -11,15 +11,15 @@ O objetivo foi criar uma **API REST** utilizando Spring Boot, com persistência 
 - Java 24
 - Spring Boot 3.x
 - Spring Web
-- Spring Data JPA
 - Springdoc OpenAPI (Swagger 3)
 - Maven
+- Postman
 
 ---
 
 ## 🛠️ Funcionalidades da API
 
-- Cadastro de utilizadores (`User`)
+- Registo de utilizadores (`User`)
 - Listagem de todos os utilizadores
 - Persistência com JPA
 - Documentação automática com Swagger
